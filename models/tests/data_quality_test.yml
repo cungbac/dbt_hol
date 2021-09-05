@@ -19,7 +19,7 @@ models:
   
   - name: tfm_stock_history
     columns:
-      - name: company_symbol || date
+      - name: company_symbol || date || stock_exchange_name
         tests:
           - not_null
           - unique
